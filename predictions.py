@@ -5,8 +5,8 @@ import json
 # pickled_model = pickle.load(open('model.pkl', 'rb'))
 # pickled_model.predict(X_test)
 
-booster = xgb.Booster()
-booster.load_model('test_model.bin')
+# booster = xgb.Booster()
+# booster.load_model('test_model.bin')
 
 
 def predict(data):
