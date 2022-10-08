@@ -20,9 +20,9 @@ carriers = decode_category("CARRIER_NAME")
 departing_airports = decode_category("DEPARTING_AIRPORT")
 previous_airports = decode_category("PREVIOUS_AIRPORT")
 
-img = Image.open("image.jpg")
-new_image = img.resize((800, 200))
-# st.image(new_image)
+# img = Image.open("image.jpg")
+# new_image = img.resize((800, 200))
+# # st.image(new_image)
 
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
